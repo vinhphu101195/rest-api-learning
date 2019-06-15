@@ -11,6 +11,8 @@ mongoose.Promise = global.Promise;
 
 app.use(bodyParser.json());
 
+app.use(express.static("public"));
+
 //initialize routes
 app.use("/api", require("./routes/api"));
 
