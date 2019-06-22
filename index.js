@@ -1,4 +1,5 @@
 const express = require("express");
+// look at body and change it to object
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
